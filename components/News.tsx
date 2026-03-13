@@ -25,11 +25,11 @@ const News: React.FC = () => {
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((item) => (
           <View key={item} style={[styles.card, dynamicStyles.card]}>
             <Image
-              source={require('../assets/images/news-placeholder.png')}
+              source={require('../assets/images/a6a1850740661c26b685506b9e82b60f.jpg')}
               style={styles.cardImage}
               resizeMode="cover"
             />
-            <Text style={[styles.cardTitle, dynamicStyles.text]}>Notícia do Elevador {item}</Text>
+            <Text style={[styles.cardTitle, dynamicStyles.text]}>Notícia interessante {item}</Text>
             <Text style={dynamicStyles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</Text>
           </View>
         ))}
