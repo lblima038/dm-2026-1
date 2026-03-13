@@ -9,7 +9,7 @@ const News: React.FC = () => {
   return (
     <SafeAreaView style={[styles.container, dynamicStyles.container]}>
       <View style={[styles.header, dynamicStyles.headerBorder]}>
-        <Text style={[styles.title, dynamicStyles.text]}>Atualização em Andamento</Text>
+        <Text style={[styles.title, dynamicStyles.text]}>Notícias da fátima</Text>
         <View style={styles.switchContainer}>
           <Text style={[styles.switchLabel, dynamicStyles.text]}>{darkMode ? "Dark" : "Light"}</Text>
           <Switch
@@ -30,7 +30,7 @@ const News: React.FC = () => {
               resizeMode="cover"
             />
             <Text style={[styles.cardTitle, dynamicStyles.text]}>Notícia do Elevador {item}</Text>
-            <Text style={dynamicStyles.text}>Esta é uma notícia muito importante sobre as manutenções e informações do prédio. Deslize para ver mais.</Text>
+            <Text style={dynamicStyles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</Text>
           </View>
         ))}
       </ScrollView>
