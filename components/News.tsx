@@ -11,7 +11,7 @@ const News: React.FC = () => {
       <View style={[styles.header, dynamicStyles.headerBorder]}>
         <Text style={[styles.title, dynamicStyles.text]}>Atualização em Andamento</Text>
         <View style={styles.switchContainer}>
-          <Text style={[styles.switchLabel, dynamicStyles.text]}>{darkMode ? "Escuro" : "Claro"}</Text>
+          <Text style={[styles.switchLabel, dynamicStyles.text]}>{darkMode ? "Dark" : "Light"}</Text>
           <Switch
             value={darkMode}
             onValueChange={setDarkMode}
