@@ -9,7 +9,7 @@ const News: React.FC = () => {
   return (
     <SafeAreaView style={[styles.container, dynamicStyles.container]}>
       <View style={[styles.header, dynamicStyles.headerBorder]}>
-        <Text style={[styles.title, dynamicStyles.text]}>Notícias da fátima</Text>
+        <Text style={[styles.title, dynamicStyles.text]}>Notícias do Macaco pensante</Text>
         <View style={styles.switchContainer}>
           <Text style={[styles.switchLabel, dynamicStyles.text]}>{darkMode ? "Dark" : "Light"}</Text>
           <Switch
