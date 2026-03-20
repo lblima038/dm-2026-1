@@ -1,8 +1,7 @@
-import News from "../components/News";
-import { Text, View } from "react-native";
+import Perfil from "@/components/Perfil";
 
 export default function Index() {
   return (
-    <News/>
+    <Perfil/>
   );
 }
